@@ -209,3 +209,48 @@ Nmap scan report for 10.33.77.171
 Host is up.
 Nmap done: 4096 IP addresses (218 hosts up) scanned in 118.74 seconds
 ```
+
+essai avec  10.33.71.181
+
+```
+PS C:\Windows\System32> ipconfig
+
+Configuration IP de Windows
+
+
+Carte Ethernet Ethernet :
+
+   Statut du média. . . . . . . . . . . . : Média déconnecté
+   Suffixe DNS propre à la connexion. . . :
+
+Carte réseau sans fil Wi-Fi :
+
+   Suffixe DNS propre à la connexion. . . :
+   Adresse IPv6 de liaison locale. . . . .: fe80::dd8b:8b07:adba:11be%20
+   Adresse IPv4. . . . . . . . . . . . . .: 10.33.71.181
+   Masque de sous-réseau. . . . . . . . . : 255.255.255.0
+   Passerelle par défaut. . . . . . . . . :
+
+Carte Ethernet Ethernet 2 :
+
+   Suffixe DNS propre à la connexion. . . :
+   Adresse IPv6 de liaison locale. . . . .: fe80::56bc:7942:72ab:15ff%5
+   Adresse IPv4. . . . . . . . . . . . . .: 192.168.56.1
+   Masque de sous-réseau. . . . . . . . . : 255.255.255.0
+   Passerelle par défaut. . . . . . . . . :
+
+Carte réseau sans fil Connexion au réseau local* 2 :
+
+   Statut du média. . . . . . . . . . . . : Média déconnecté
+   Suffixe DNS propre à la connexion. . . :
+
+Carte réseau sans fil Connexion au réseau local* 3 :
+
+   Statut du média. . . . . . . . . . . . : Média déconnecté
+   Suffixe DNS propre à la connexion. . . :
+
+Carte Ethernet Connexion réseau Bluetooth :
+
+   Statut du média. . . . . . . . . . . . : Média déconnecté
+   Suffixe DNS propre à la connexion. . . :
+```
