@@ -172,3 +172,40 @@ Addresses:  51.159.197.136
 
 [ping.pcap](ping.pcapng)
 [dns.pcap](dns.pcapng)
+
+### IV. Network scanning et adresses IP
+```
+PS C:\Windows\System32> nmap -sn -PR 10.33.64.0/20
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-09-27 17:13 Paris, Madrid (heure dÆÚtÚ)
+Stats: 0:00:20 elapsed; 0 hosts completed (0 up), 4095 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 19.01% done; ETC: 17:15 (0:01:25 remaining)
+Nmap scan report for 10.33.66.78
+Host is up (0.063s latency).
+MAC Address: E4:B3:18:48:36:68 (Intel Corporate)
+Nmap scan report for 10.33.69.82
+Host is up (0.44s latency).
+MAC Address: 50:A6:D8:A9:55:02 (Apple)
+Nmap scan report for 10.33.69.124
+Host is up (0.60s latency).
+MAC Address: CC:08:FA:83:C8:7B (Apple)
+Nmap scan report for 10.33.69.136
+Host is up (0.13s latency).
+MAC Address: BA:E9:DD:6B:50:32 (Unknown)
+Nmap scan report for 10.33.69.137
+Host is up (0.036s latency).
+MAC Address: 74:A6:CD:A1:5D:5C (Apple)
+Nmap scan report for 10.33.69.143
+Host is up (0.83s latency).
+MAC Address: 3C:A6:F6:31:FE:F6 (Apple)
+Nmap scan report for 10.33.69.157
+Host is up (0.13s latency).
+
+...
+
+MAC Address: 7C:5A:1C:D3:D8:76 (Sophos)
+Stats: 0:01:58 elapsed; 4095 hosts completed (217 up), 4095 undergoing Host Discovery
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Nmap scan report for 10.33.77.171
+Host is up.
+Nmap done: 4096 IP addresses (218 hosts up) scanned in 118.74 seconds
+```
