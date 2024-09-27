@@ -170,5 +170,5 @@ Addresses:  51.159.197.136
 
 ### III. Sniffer le réseau
 
-[ping.pcap](/ping.pcapng)
-[dns.pcap](/dns.pcapng)
+[ping.pcap](ping.pcapng)
+[dns.pcap](dns.pcapng)
