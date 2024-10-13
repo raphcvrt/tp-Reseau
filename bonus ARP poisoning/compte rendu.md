@@ -71,7 +71,7 @@ PS C:\Windows\System32> pip install scapy
 PS C:\Users\rapha\Documents\arp-spoofing> python .\spoofer.py
 ```
 
-spam losque executé (voire [spam arp.pcap](spam arp.pcap))
+spam losque executé (voir [spam arp.pcap](spam arp.pcap))
 
 et voici la table ARP de la victime pendant l'empoisonnement
 
@@ -111,3 +111,5 @@ Interface : 172.17.96.1 --- 0x17
   255.255.255.255       ff-ff-ff-ff-ff-ff     statique
 
 ```
+
+ouverture de amazon.fr depuis le pc cible, grace au filtre tcp dans wireshark sur le pc attaquant on peut voir les sites consultés (en l'occurence amazon.fr) (voir [interception tcp.pcap](interception tcp.pcap))
