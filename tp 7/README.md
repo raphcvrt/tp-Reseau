@@ -52,4 +52,23 @@ j'ai enlevé le meow! a un moment je sais plus pourquoi désolé
 
 # III. Serveur VPN
 
-[Document dédié à la partie III. Serveur VPN](./vpn.md)
+```
+[paph@vpn ~]$ ip a
+4: wg0: <POINTOPOINT,NOARP,UP,LOWER_UP> mtu 1420 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/none
+    inet 10.7.200.1/24 scope global wg0
+       valid_lft forever preferred_lft forever
+[paph@vpn ~]$ sudo ss -tuln
+Netid      State       Recv-Q      Send-Q           Local Address:Port              Peer Address:Port      Process
+udp        UNCONN      0           0                      0.0.0.0:51820                  0.0.0.0:*
+[paph@vpn ~]$ sudo firewall-cmd --permanent --add-port=51820/udp
+success
+[paph@vpn ~]$ sudo firewall-cmd --permanent --add-port=323/udp
+success
+```
+
+```
+paph@client1:~$ ping 10.7.200.1
+PING 10.7.200.1 (10.7.200.1) 56(84) bytes of data.
+64 bytes from 10.7.200.1: icmp_seq=1 ttl=64 time=0.695 ms
+```
