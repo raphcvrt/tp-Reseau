@@ -72,3 +72,24 @@ paph@client1:~$ ping 10.7.200.1
 PING 10.7.200.1 (10.7.200.1) 56(84) bytes of data.
 64 bytes from 10.7.200.1: icmp_seq=1 ttl=64 time=0.695 ms
 ```
+```
+paph@client1:~$ sudo traceroute 1.1.1.1
+traceroute to 1.1.1.1 (1.1.1.1), 64 hops max
+  1   10.7.200.1  0,782ms  0,699ms  0,649ms 
+  2   *  *  * 
+  3   *  *  * 
+  4   *  *  10.33.79.254  2434,600ms 
+  5   195.7.117.145  13,206ms  4,489ms  7,416ms 
+  6   *  *  * 
+  7   *  *  * 
+  8   *  *  * 
+  9   *  *  162.158.20.24  66,608ms 
+ 10   162.158.20.31  19,189ms  17,062ms  15,823ms 
+ 11   1.1.1.1  16,323ms  16,043ms  16,037ms 
+```
+```
+paph@client1:~$ curl https://sitedefou.tp7.b1
+<!doctype html>
+<html>
+  <head>
+```
